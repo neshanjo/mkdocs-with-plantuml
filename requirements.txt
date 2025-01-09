@@ -1,0 +1,3 @@
+mkdocs
+plantuml-markdown
+mkdocs-build-plantuml-plugin

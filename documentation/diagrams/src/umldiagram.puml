@@ -1,0 +1,17 @@
+@startuml umldiagram
+class Animal {
+    +String name
+    +int age
+    +void eat()
+    +void sleep()
+    +void run()
+}
+
+class Dog {
+    +String breed
+    +void bark()
+}
+
+Animal <|-- Dog
+
+@enduml

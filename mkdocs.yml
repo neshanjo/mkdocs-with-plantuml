@@ -1,0 +1,22 @@
+site_name: ADF-Documentation
+docs_dir: documentation
+theme:
+    name: material
+    features:
+    - navigation.tabs
+markdown_extensions:
+- plantuml_markdown # for handling inline plantuml code
+extra_javascript:
+  - js/handle_umlaut_anchors.js
+plugins:
+- search
+- build_plantuml: # for handling referenced plantuml files
+      render: 'local' # or server
+      #server: 'http://localhost:8080'
+      bin_path: '/opt/homebrew/bin/plantuml'
+      output_format: 'png'
+      allow_multiple_roots: false # in case your codebase contains more locations for diagrams (all ending in diagram_root)
+      diagram_root: 'documentation/diagrams' # should reside under docs_dir
+      output_folder: 'out'
+      input_folder: 'src'
+      input_extensions: '' # comma separated list of extensions to parse, by default every file is parsed

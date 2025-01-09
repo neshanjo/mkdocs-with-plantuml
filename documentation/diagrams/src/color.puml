@@ -1,0 +1,19 @@
+@startuml color
+!define Yellow #fff2cc
+!define Green #b9e0a5
+!define Pink #fff0e8
+!define Red #f8cecc
+!define Orange #ffe6cc
+!define White #ffffff
+
+skinparam {
+    node {
+        BackgroundColor Yellow
+        FontStyle normal
+    }
+    component {
+        BackgroundColor Yellow
+        FontStyle normal
+    }
+}
+@enduml
