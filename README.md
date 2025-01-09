@@ -77,6 +77,10 @@ One disadvantage of this setup is that it takes quite a long time to generate th
 
 Check if the `diagrams/include` directory can or should be used for PlantUML includes.
 
+## Further Resources
+
+- [MkDocs catalog](https://github.com/mkdocs/catalog) - "A list of awesome MkDocs projects and plugins"
+
 ## License
 
 (C) by Johannes Schneider, 2024. Code and configuration is licensed under the MIT license. Text, diagrams and images are licensed under CC BY-SA 4.0. For more information, see the [LICENSE.md](LICENSE.md) file.
